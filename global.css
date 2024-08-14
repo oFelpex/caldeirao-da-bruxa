@@ -1,0 +1,13 @@
+.logo {
+    margin: 10px 0px 20px 10px;
+}
+h1 {
+    margin: 10px 20px;
+    font-size: 28px;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link {
+    font-size: 18px;
+}
