@@ -1,13 +1,40 @@
 .logo {
-    margin: 10px 0px 20px 10px;
+    margin: 10px;
+}
+h1, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
+    white-space: nowrap;
 }
 h1 {
-    margin: 10px 20px;
+    margin: 10px 10px 10px 10px;
     font-size: 28px;
     font-family: "Luckiest Guy", cursive;
-    font-weight: 400;
-    font-style: normal;
 }
 .nav-link {
     font-size: 18px;
+}
+.navbar-collapse {
+    flex-direction: column;
+}
+.navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
+    margin: 0px 20px;
+}
+.navbar-nav.navbar-menu-main .nav-item:first-child {
+    margin-left: 0;
+}
+.navbar-nav.navbar-menu-main .nav-item:last-child {
+    margin-right: 0;
+}
+.navbar-nav.navbar-new-user {
+    margin: 0px 20px;
+
+}
+
+@media (max-width: 992px) {
+    h1{
+        margin: 0px;
+    }
+    .navbar-nav.navbar-menu-main .nav-item:first-child {
+        margin: 0px 20px;
+    }
+    
 }
