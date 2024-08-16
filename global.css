@@ -9,8 +9,30 @@ h1 {
     font-size: 28px;
     font-family: "Luckiest Guy", cursive;
 }
+/* FALTA MUDAR ISSO */
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    justify-content: space-around;
+}
+.navbar-toggler {
+    background-color: aliceblue;
+    transition: 0.3s;
+}
+.navbar-toggler:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+}
+#logo-home {
+    display: flex;
+    align-items: center;
+}
 .nav-link {
     font-size: 18px;
+    color: rgb(235, 235, 235);
+}
+.nav-link:hover {
+    color: rgb(0, 190, 79);
 }
 .navbar-collapse {
     flex-direction: column;
@@ -25,8 +47,19 @@ h1 {
     margin-right: 0;
 }
 .navbar-nav.navbar-new-user {
-    margin: 0px 20px;
-
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(177, 115, 0);
+    color: rgb(212, 212, 212);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.navbar-nav.navbar-new-user:hover {
+    background-color: rgb(216, 140, 0);
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
 }
 
 @media (max-width: 992px) {
@@ -36,5 +69,7 @@ h1 {
     .navbar-nav.navbar-menu-main .nav-item:first-child {
         margin: 0px 20px;
     }
-    
+    .navbar-nav.navbar-new-user{
+        display: none;
+    }
 }
