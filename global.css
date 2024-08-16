@@ -14,7 +14,7 @@
     justify-content: center;
     color: aliceblue;
     padding: 0px 5px 0px 0px;
-    
+    transition: 0.3s;
 }
 
 h1, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
@@ -32,7 +32,7 @@ h1 {
     transition: 0.3s;
 }
 .navbar-toggler:hover, .nav-link:hover, .logo-home:hover  {
-    transform: scale(1.1);
+    transform: scale(1.02);
 }
 a {
     text-decoration: none;
@@ -72,13 +72,13 @@ a {
     align-items: center;
     height: 50px;
     width: 200px;
-    background-color: rgb(177, 115, 0);
-    color: rgb(212, 212, 212);
+    background-color: #563800;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     transition: 0.3s;
 }
 .navbar-nav.navbar-new-user:hover {
-    background-color: rgb(216, 140, 0);
+    background-color: #7B5000;
     color: rgb(255, 255, 255);
     transform: scale(1.1);
 }
