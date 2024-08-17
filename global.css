@@ -1,3 +1,7 @@
+
+.navbar.navbar-expand-lg.bg-dark  {
+    z-index: 2;
+}
 .logo {
     margin: 10px;
 }
@@ -16,7 +20,6 @@
     padding: 0px 5px 0px 0px;
     transition: 0.3s;
 }
-
 h1, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
     white-space: nowrap;
 }
