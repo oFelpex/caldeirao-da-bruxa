@@ -2,6 +2,13 @@ body {
     background-color: rgb(50, 50, 50);
     overflow-x: hidden;
 }
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 .logo-home, #logo-home, .nav-link.active, .navbar-toggler, .nav-link, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item, .navbar-nav.navbar-new-user, h1, h2, h3, h4, h5, h6 {
     transition: 0.3s;
 }
@@ -85,7 +92,16 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .lo
     background-color: #7B5000;
     color: rgb(255, 255, 255);
 }
-
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: antiquewhite;
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+}
 @media (max-width: 1260px) {
     .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
         margin: 0px 1vw 0px 0px;
