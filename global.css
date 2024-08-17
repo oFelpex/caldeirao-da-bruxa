@@ -1,4 +1,13 @@
-
+body {
+    background-color: rgb(50, 50, 50);
+    overflow-x: hidden;
+}
+.logo-home, #logo-home, .nav-link.active, .navbar-toggler, .nav-link, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item, .navbar-nav.navbar-new-user, h1, h2, h3, h4, h5, h6 {
+    transition: 0.3s;
+}
+.navbar-nav.navbar-new-user:hover, .navbar-toggler:hover, .nav-link:hover, .logo-home:hover {
+    transform: scale(1.02);
+}
 .navbar.navbar-expand-lg.bg-dark  {
     z-index: 2;
 }
@@ -18,7 +27,7 @@
     justify-content: center;
     color: aliceblue;
     padding: 0px 5px 0px 0px;
-    transition: 0.3s;
+    
 }
 h1, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
     white-space: nowrap;
@@ -27,15 +36,10 @@ h1 {
     margin: 10px 10px 10px 10px;
     font-size: 32px;
     font-family: "Luckiest Guy", cursive;
-    transition: 0.4s;
 }
 
 .navbar-toggler {
     background-color: aliceblue;
-    transition: 0.3s;
-}
-.navbar-toggler:hover, .nav-link:hover, .logo-home:hover  {
-    transform: scale(1.02);
 }
 a {
     text-decoration: none;
@@ -43,9 +47,8 @@ a {
 .nav-link {
     font-size: 18px;
     color: rgb(235, 235, 235);
-    transition: 0.4s;
 }
-.nav-link:hover, .logo-home:hover, .navbar-nav .nav-link.active {
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .logo-home:hover, .navbar-nav .nav-link.active {
     color: rgb(0, 190, 79);
 }
 .nav-item {
@@ -61,7 +64,6 @@ a {
 }
 .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
     margin: 0px 20px;
-    transition: 0.3s;
 }
 
 .navbar-nav.navbar-menu-main .nav-item:first-child {
@@ -78,12 +80,10 @@ a {
     background-color: #563800;
     color: rgb(255, 255, 255);
     border-radius: 10px;
-    transition: 0.3s;
 }
 .navbar-nav.navbar-new-user:hover {
     background-color: #7B5000;
     color: rgb(255, 255, 255);
-    transform: scale(1.1);
 }
 
 @media (max-width: 1260px) {
