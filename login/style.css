@@ -5,6 +5,9 @@ main {
     justify-content: center;
     margin: 70px 0px;
 }
+.card.login{
+    border: none;
+}
 .form-control {
     padding: 20px;
 }
@@ -17,7 +20,7 @@ input {
 input[type=number]::-webkit-outer-spin-button, input[type=number]::-webkit-inner-spin-button {
     -webkit-appearance: none;
 }
-a.btn.btn-primary.register {
+a.btn.btn-primary.login {
     background-color: #006700;
     color: #FFFFFF;
     border: none;
@@ -26,14 +29,18 @@ a.btn.btn-primary.register {
     width: 100%;
     margin-top: 20px;
 }
-a.btn.btn-primary.register:hover {
+a.btn.btn-primary.login:hover {
     background-color: #005100;
 }
 button.btn.btn-primary.login {
+    background-color: #0500a0;
     color: #FFFFFF;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 100%;
     margin-top: 20px;
+}
+button.btn.btn-primary.login:hover {
+    background-color: #040072;
 }

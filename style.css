@@ -20,56 +20,11 @@ section.card.text-bg-dark {
     flex-direction: column;
     justify-content: center;
 }
-h3 {
-    margin: 20px;
-    color: aliceblue;
-    align-self:center;
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: rgb(50, 50, 50);
-    color: aliceblue;
-}
-
 .news-cards-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-}
-.card, .btn.btn-primary, .menu.link, .price.promotion {
-    transition: 0.3s;
-}
-.card:hover, h3:hover, .card-title:hover, .btn.btn-primary:hover, .menu.link:hover, .price.promotion:hover {
-    transform: scale(1.03);
-}
-h4 {
- font-size: larger;   
-}
-.card-img-top {
-    background-color: rgb(30, 30, 30);
-}
-.price {
-    margin: 20px 0px 0px 0px;
-    text-align: center;
-    font-size: 18px;
-}
-
-.btn.btn-primary {
-    color: rgb(255, 255, 255);
-    background-color: green;
-    border: none;
-    align-self: center;
-}
-button.btn.btn-primary {
-    background-color: rgb(115, 115, 115);
-}
-.btn.btn-primary:hover {
-    background-color: rgb(0, 190, 79);
-
 }
 .menu.link {
     margin: 15px 0px 40px;
@@ -99,15 +54,4 @@ button.btn.btn-primary {
     gap: 40px;
     margin-bottom: 50px;
 }
-.price.no-promotion {
-    color: rgb(205, 205, 205);
-}
-.price.promotion {
-    margin: 0px 0px 20px 0px;
-    color: rgb(0, 190, 79);
-    font-size: 24px;
-    filter: drop-shadow(0px 0px 5px rgb(0, 190, 79));
-}
-.only-in-store {
-    align-self: center;
-}
+

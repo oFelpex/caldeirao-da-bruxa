@@ -44,7 +44,14 @@ h1 {
     font-size: 32px;
     font-family: "Luckiest Guy", cursive;
 }
-
+h3 {
+    margin: 20px;
+    color: aliceblue;
+    align-self:center;
+}
+h4 {
+    font-size: larger;   
+}
 .navbar-toggler {
     background-color: aliceblue;
 }
@@ -91,6 +98,49 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .lo
 .navbar-nav.navbar-new-user:hover {
     background-color: #7B5000;
     color: rgb(255, 255, 255);
+}
+.card, .btn.btn-primary, .menu.link, .price.promotion {
+    transition: 0.3s;
+}
+.card:hover, h3:hover, .card-title:hover, .btn.btn-primary:hover, .menu.link:hover, .price.promotion:hover {
+    transform: scale(1.03);
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 50);
+    color: aliceblue;
+    min-height: 400px;
+}
+.price {
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+.price.no-promotion {
+    color: rgb(205, 205, 205);
+}
+.price.promotion {
+    margin: 0px 0px 20px 0px;
+    color: rgb(0, 190, 79);
+    font-size: 24px;
+    filter: drop-shadow(0px 0px 5px rgb(0, 190, 79));
+}
+.btn.btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: green;
+    border: none;
+    align-self: center;
+}
+button.btn.btn-primary {
+    background-color: rgb(115, 115, 115);
+}
+.btn.btn-primary:hover {
+    background-color: rgb(0, 190, 79);
+}
+.only-in-store {
+    align-self: center;
 }
 .footer {
     display: flex;

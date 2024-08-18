@@ -5,6 +5,9 @@ main {
     justify-content: center;
     margin: 70px 0px;
 }
+.card.register{
+    border: none;
+}
 .form-control {
     padding: 20px;
 }
@@ -30,10 +33,14 @@ button.btn.btn-primary.register:hover {
     background-color: #005100;
 }
 a.btn.btn-primary.login {
+    background-color: #0500a0;
     color: #FFFFFF;
     border: none;
     border-radius: 20px;
     height: 40px;
     width: 100%;
     margin-top: 20px;
+}
+a.btn.btn-primary.login:hover {
+    background-color: #040072;
 }
