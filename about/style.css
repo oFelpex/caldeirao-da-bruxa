@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 40px;
+}
+.card.about {
+    max-width: 64rem;
+}
+.card-body {
+    justify-content: start;
+}
+.card-header {
+    background: none;
+    padding-bottom: 20px;
+}
+.card-title {
+    font-size:larger;
+}
+.card-text {
+    margin-bottom: 40px;
+    text-align: justify;
+}

@@ -36,6 +36,9 @@ body {
     padding: 0px 5px 0px 0px;
     
 }
+h1, h2, h3, h4, h5, h6 {
+    color: aliceblue;
+}
 h1, .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
     white-space: nowrap;
 }
@@ -44,10 +47,9 @@ h1 {
     font-size: 32px;
     font-family: "Luckiest Guy", cursive;
 }
-h3 {
+h3, h2, h3 {
     margin: 20px;
     color: aliceblue;
-    align-self:center;
 }
 h4 {
     font-size: larger;   
@@ -62,7 +64,7 @@ a {
     font-size: 18px;
     color: rgb(235, 235, 235);
 }
-h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .logo-home:hover, .navbar-nav .nav-link.active {
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .logo-home:hover, .navbar-nav .nav-link.active, .felpex:hover {
     color: rgb(0, 190, 79);
 }
 .nav-item {
@@ -99,10 +101,10 @@ h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .nav-link:hover, .lo
     background-color: #7B5000;
     color: rgb(255, 255, 255);
 }
-.card, .btn.btn-primary, .menu.link, .price.promotion {
+.card, .btn.btn-primary, .menu.link, .price.promotion, .felpex {
     transition: 0.3s;
 }
-.card:hover, h3:hover, .card-title:hover, .btn.btn-primary:hover, .menu.link:hover, .price.promotion:hover {
+.card:hover, h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover, .card-title:hover, .btn.btn-primary:hover, .menu.link:hover, .price.promotion:hover, .felpex:hover {
     transform: scale(1.03);
 }
 .card-body {
@@ -150,6 +152,9 @@ button.btn.btn-primary {
     color: antiquewhite;
     width: 100%;
     height: 200px;
+}
+.felpex {
+
 }
 @media (max-width: 1260px) {
     .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
