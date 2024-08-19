@@ -153,9 +153,6 @@ button.btn.btn-primary {
     width: 100%;
     height: 200px;
 }
-.felpex {
-
-}
 @media (max-width: 1260px) {
     .navbar-nav.navbar-menu-utility .nav-item, .navbar-nav.navbar-menu-main .nav-item {
         margin: 0px 1vw 0px 0px;
